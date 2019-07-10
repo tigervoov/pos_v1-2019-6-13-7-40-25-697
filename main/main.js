@@ -1,15 +1,6 @@
 'use strict';
 //const loadAllItems=require('../test/fixtures')
-const tags = [
-    'ITEM000001',
-    'ITEM000001',
-    'ITEM000001',
-    'ITEM000001',
-    'ITEM000001',
-    'ITEM000003-2.5',
-    'ITEM000005',
-    'ITEM000005-2',
-  ];
+
   function printReceipt(barcodesArray){
     var cartItemsArray=formatItemObject(barcodesArray)
     var receiptInfoObj=colculateTotal(cartItemsArray)
@@ -96,4 +87,4 @@ function colculateItemQuantity(barcodesArray){
     return objItem
   }
   
-  formatItemObject(tags)
+  //formatItemObject(tags)
